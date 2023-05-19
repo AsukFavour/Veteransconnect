@@ -13,7 +13,7 @@ function Jumbotron() {
         including Health Awareness and Education, Training programs ,
         Enterprenuership, Employment opportunities and many more.
       </p>
-      <button className="jumbotron__button">Donate</button>
+      {/* <button className="jumbotron__button">Donate</button> */}
     </div>
   );
 }

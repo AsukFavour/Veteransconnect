@@ -5,6 +5,7 @@ import CardGrid from '../Cards/Cards';
 import News from '../News/News';
 import AboutUs from '../AboutUs/AboutUs';
 import Footer from '../Footer/Footer';
+import Banner from '../Banner/Banner';
 
 function Home() {
   return (
