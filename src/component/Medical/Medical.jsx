@@ -11,8 +11,8 @@ function Medical() {
         <Navbar/>
         <Banner
         imgsrc={backimg}
-        headerText="Welcome to our Website"
-        bodyText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lacus auctor, venenatis ex et, iaculis odio."/>
+        headerText="Assiting Our Veterans: Health Awareness & Education"
+        bodyText="Discover resources and information to support your well-being"/>
         <HealthInfo/>
         <Footer/>
     </div>

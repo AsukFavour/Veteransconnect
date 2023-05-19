@@ -12,7 +12,7 @@ function Footer() {
         <a href="#">Contact Us</a>
         <a href="#">Donate</a>
       </div>
-      <p className="footer__text">&copy; 2023 VBSFoundation. All rights reserved.</p>
+      <p className="footer__text">&copy; 2023 VBSAfrica. All rights reserved.</p>
     </footer>
   );
 }

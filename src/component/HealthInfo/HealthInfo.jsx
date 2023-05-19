@@ -19,13 +19,10 @@ const HealthInfo = () => {
           <div className="healthinfo__content">
             <h2 className="healthinfo__title">Telemedicine</h2>
             <p className="healthinfo__info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            Accessing quality healthcare services is crucial, especially for retired military veterans. Our platform offers telemedicine services, allowing you to connect with healthcare professionals remotely. Our platform ensures that you have convenient and timely access to healthcare, bridging the gap between you and healthcare providers.
             </p>
             <a href="#" className="healthinfo__button">
-              Learn More
+             More Info
             </a>
           </div>
         </div>
@@ -40,40 +37,13 @@ const HealthInfo = () => {
           <div className="healthinfo__content">
             <h2 className="healthinfo__title">Health Education</h2>
             <p className="healthinfo__info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            We believe that knowledge is empowering when it comes to your health. Our platform provides comprehensive health education resources tailored specifically for retired military veterans. Explore a wide range of articles, videos, and interactive materials covering various health topics, including preventive care, mental health support, nutrition, fitness, and more. Stay informed about the latest developments in healthcare and access valuable insights to make informed decisions about your well-being.
             </p>
             <a href="#" className="healthinfo__button">
-              Learn More
+              More Info
             </a>
           </div>
         </div>
-      </div>
-      <div className="healthinfo__row">
-        <div className="healthinfo__section">
-          
-            <img
-              src={medications}
-              alt="Medications"
-              className="healthinfo__img"
-            />
-          
-          <div className="healthinfo__content">
-            <h2 className="healthinfo__title">Medications</h2>
-            <p className="healthinfo__info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a href="#" className="healthinfo__button">
-              Learn More
-            </a>
-          </div>
-        </div>
-        {/* Add additional sections here */}
       </div>
     </div>
   );

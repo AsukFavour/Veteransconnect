@@ -1,81 +1,79 @@
 .jumbotron {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 50vh;
-    padding: 0 2rem;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+  padding: 0 2rem;
+  background-color: #7e7a7a;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.jumbotron__heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.jumbotron__text {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.jumbotron__button {
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.jumbotron__button:hover {
+  background-color: #eee;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding: 0 5rem;
+    min-height: 65vh;
   }
-  
+
   .jumbotron__heading {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
-  
+
   .jumbotron__text {
-    font-size: 1.5rem;
-    margin-bottom: 0.8rem;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
   }
-  
+
   .jumbotron__button {
+    font-size: 1.7rem;
     padding: 1rem 1rem;
-    font-size: 1rem;
-    background-color: #fff;
-    color: #333;
-    border: none;
-    border-radius: 0.25rem;
-    cursor: pointer;
   }
-  
-  .jumbotron__button:hover {
-    background-color: #eee;
+}
+
+@media (min-width: 1024px) {
+  .jumbotron {
+    min-height: 70vh;
   }
-  
-  @media (min-width: 768px) {
-    .jumbotron {
-      padding: 0 5rem;
-      min-height: 60vh;
-     
-    }
-  
-    .jumbotron__heading {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-  
-    .jumbotron__text {
-      font-size: 1.7rem;
-      margin-bottom: 1rem;
-    }
-  
-    .jumbotron__button {
-      font-size: 1.7rem;
-      padding: 1rem 1rem;
-    }
+
+  .jumbotron__heading {
+    font-size: 2.5rem;
+    margin-bottom: 1.7rem;
   }
-  
-  @media (min-width: 1024px) {
-    .jumbotron {
-      min-height: 70vh;
-    }
-  
-    .jumbotron__heading {
-      font-size: 3rem;
-      margin-bottom: 1.7rem;
-    }
-  
-    .jumbotron__text {
-      font-size: 2rem;
-      margin-bottom: 3.7rem;
-    }
-  
-    .jumbotron__button {
-      font-size: 2rem;
-      padding: 1.5rem 2rem;
-    }
+
+  .jumbotron__text {
+    font-size: 1.7rem;
+    margin-bottom: 3.7rem;
   }
-  
+
+  .jumbotron__button {
+    font-size: 2rem;
+    padding: 1.5rem 1.5rem;
+  }
+}

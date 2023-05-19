@@ -7,6 +7,7 @@ import InsuranceBanner from "./component/Insurance/InsuranceBanner";
 import AllNews from "./component/News/AllNews";
 import Entrepreneurship from "./component/Entrepreneurship/Entrepreneurship";
 import AuthForm from "./component/Authform/AuthForm";
+import Support from "./component/Support/Support";
 
 function App() {
 
@@ -37,6 +38,9 @@ function App() {
         } />
         <Route path="/login" element={
           <AuthForm/>
+        } />
+         <Route path="/support" element={
+          <Support/>
         } />
         
       </Routes>

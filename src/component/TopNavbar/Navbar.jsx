@@ -23,7 +23,6 @@ function Navbar() {
         <Link to={'/allnews'} className="navbar__link">News</Link>
         <Link to={'/about'} className="navbar__link">About Us</Link>
         <a href="#" className="navbar__link">Contact Us</a>
-        <button className="navbar__donate">Donate</button>
         <Link to={'/login'} className='navbar__donate'>Login</Link>
       </div>
     </nav>

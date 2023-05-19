@@ -27,53 +27,55 @@ function Cards() {
   return (
     <div className="card-grid">
       <Card
-        imgSrc={educationImg}
-        title="Education"
-        description="Learn about our educational programs and resources."
-        link="/education"
-      />
-      <Card
-        imgSrc={insuranceImg}
-        title="Insurance"
-        description="Get information about our insurance plans and coverage."
-        link="/insurance"
-      />
-      <Card
         imgSrc={healthImg}
-        title="Health Awareness"
-        description="Learn about important health topics and how to stay healthy."
+        title="Health Awareness & Education"
+        description="Prioritizing your health is essential. Our platform offers a wealth of resources, articles, and videos to increase health awareness"
         link="/medical"
       />
       <Card
-        imgSrc={advocacyImg}
-        title="Advocacy"
-        description="Join our efforts to make a difference in our community."
-        link="/advocacy"
-      />
-      <Card
-        imgSrc={volunteeringImg}
-        title="Online Volunteering"
-        description="Find ways to volunteer and make a difference from home."
-        link="/volunteering"
-      />
-      <Card
-        imgSrc={supportImg}
-        title="Support"
-        description="Get support and resources for yourself or a loved one."
-        link="/support"
+        imgSrc={educationImg}
+        title="Education & Training"
+        description="Continuous learning and personal development are crucial for your professional growth. Discover a vast selection of educational and skill training courses to expand your knowledge and expertise"
+        link="/education"
       />
       <Card
         imgSrc={employmentImg}
         title="Employment"
-        description="Find job opportunities and resources to help with your career."
+        description="Transitioning from military service to civilian life can be challenging. Our platform provides access to a wide range of job opportunities explore job listings from organizations, both in the public and private sectors that value your unique skill set and experience."
         link="/employment"
       />
       <Card
         imgSrc={entrepreneurshipImg}
         title="Entrepreneurship"
-        description="Learn about starting and growing a business."
+        description="If you aspire to start and grow your own business, our platform provides a range of entrepreneurship courses to equip you with the necessary knowledge and skills."
         link="/entrepreneurship"
       />
+      <Card
+        imgSrc={insuranceImg}
+        title="Insurance"
+        description="Protecting your future and your loved ones is paramount. We offer comprehensive information and resources related to insurance options specifically tailored for veterans."
+        link="/insurance"
+      />
+      
+      <Card
+        imgSrc={advocacyImg}
+        title="Advocacy"
+        description="We advocate for the rights and well-being of retired military veterans. Stay informed about policy changes, initiatives, and legislative developments that impact the veteran community."
+        link="/advocacy"
+      />
+      <Card
+        imgSrc={volunteeringImg}
+        title="Online Volunteering"
+        description="Make a difference in the lives of others through online volunteering opportunities. Contribute your skills, expertise, and time to meaningful projects and initiatives that align with your interests."
+        link="/volunteering"
+      />
+      <Card
+        imgSrc={supportImg}
+        title="Support"
+        description="We believe in the power of community and mutual support. Our platform provides a unique opportunity for individuals and organizations to contribute their skills and expertise."
+        link="/support"
+      />
+      
     </div>
   );
 }
