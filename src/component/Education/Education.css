@@ -1,0 +1,87 @@
+.education {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.education__header {
+  text-align: center;
+}
+
+.education__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.education-card {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 960px) {
+  .education-card {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 640px) {
+  .education-card {
+    flex-basis: calc(100% - 20px);
+  }
+}
+
+.education-card__details {
+  padding: 20px;
+}
+
+.education-card__title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.education-card__description {
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.education-card__link {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: right;
+  text-decoration: none;
+  color: #2196f3;
+  transition: color 0.3s ease;
+}
+
+.education-card__link:hover {
+  color: #1565c0;
+}
+
+.education-card__video,
+.education-card__pdf {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
+}
+
+.education-card__video iframe,
+.education-card__pdf embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

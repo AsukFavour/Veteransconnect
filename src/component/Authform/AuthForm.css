@@ -1,0 +1,78 @@
+.auth-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .auth-form__title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .auth-form__group {
+    margin-bottom: 15px;
+  }
+  
+  .auth-form__group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .auth-form__group input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .auth-form__button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .auth-form__switch {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .auth-form__switch-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .auth-form__forgot-password {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .auth-form__forgot-password-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 480px) {
+    .auth-form {
+      width: 100%;
+      max-width: none;
+    }
+  }
+  

@@ -1,0 +1,70 @@
+.insurance-banner {
+    background-image: url('../../assets/flag.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    
+  }
+
+  .insurance-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .insurance-banner__content {
+    max-width: 600px;
+    margin-left: 50px;
+    z-index: 3;
+  }
+  
+  .insurance-banner__title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .insurance-banner__text {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  
+  .insurance-banner__buttons {
+    display: flex;
+  }
+  
+  .insurance-banner__button {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .insurance-banner__button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .insurance-banner__button--contact {
+    border: transparent;
+  }
+  
+  .insurance-banner__button--discover {
+    background-color: #000;
+    color: #fff;
+  }
+  

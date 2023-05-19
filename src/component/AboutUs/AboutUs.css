@@ -1,0 +1,28 @@
+.about-us {
+    padding: 2rem;
+    background-color: #333333;
+    color: white;
+  }
+  
+  .about-us__heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .about-us__text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+  
+  @media (max-width: 767px) {
+    .about-us__heading {
+      font-size: 1.5rem;
+    }
+  
+    .about-us__text {
+      font-size: 0.875rem;
+    }
+  }
+  
