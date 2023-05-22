@@ -66,7 +66,7 @@
 }
 
 .news-item__button {
-  background-color: #0077c2;
+  background-color: #790888;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -76,5 +76,5 @@
 }
 
 .news-item__button:hover {
-  background-color: #005ea6;
+  background-color: #880882;
 }

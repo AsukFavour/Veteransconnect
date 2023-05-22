@@ -8,6 +8,7 @@ import AllNews from "./component/News/AllNews";
 import Entrepreneurship from "./component/Entrepreneurship/Entrepreneurship";
 import AuthForm from "./component/Authform/AuthForm";
 import Support from "./component/Support/Support";
+import ContactUs from "./component/ContactUs/ContactUs";
 
 function App() {
 
@@ -41,6 +42,9 @@ function App() {
         } />
          <Route path="/support" element={
           <Support/>
+        } />
+         <Route path="/contactus" element={
+          <ContactUs/>
         } />
         
       </Routes>

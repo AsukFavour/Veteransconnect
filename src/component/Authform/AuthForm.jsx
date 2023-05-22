@@ -52,7 +52,7 @@ function AuthForm() {
 
   return (
   <>
-   <Link to={'/'}><h2>Back Home >></h2>
+   <Link to={'/'}><h2>Back Home </h2>
       </Link>
     <div className="auth-form">
       <h2 className="auth-form__title">{isLogin ? 'Login' : 'Sign Up'}</h2>

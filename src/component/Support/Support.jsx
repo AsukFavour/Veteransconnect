@@ -4,8 +4,8 @@ import Navbar from "../TopNavbar/Navbar";
 import Banner from "../Banner/Banner";
 import Footer from "../Footer/Footer";
 import telemedicine from "../../assets/supports.jpg";
-import healthEducation from "../../assets/supports.jpg";
-import backimg from "../../assets/supports.jpg";
+import healthEducation from "../../assets/advocacy.jpg";
+import backimg from "../../assets/volunteer.jpg";
 
 const Support = () => {
   return (

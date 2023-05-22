@@ -39,24 +39,23 @@ function Cards() {
         link="/education"
       />
       <Card
-        imgSrc={employmentImg}
-        title="Employment"
-        description="Transitioning from military service to civilian life can be challenging. Our platform provides access to a wide range of job opportunities explore job listings from organizations, both in the public and private sectors that value your unique skill set and experience."
-        link="/employment"
-      />
-      <Card
         imgSrc={entrepreneurshipImg}
         title="Entrepreneurship"
         description="If you aspire to start and grow your own business, our platform provides a range of entrepreneurship courses to equip you with the necessary knowledge and skills."
         link="/entrepreneurship"
       />
       <Card
+        imgSrc={employmentImg}
+        title="Employment"
+        description="Transitioning from military service to civilian life can be challenging. Our platform provides access to a wide range of job opportunities explore job listings from organizations, both in the public and private sectors that value your unique skill set and experience."
+        link="/employment"
+      />
+      {/* <Card
         imgSrc={insuranceImg}
         title="Insurance"
         description="Protecting your future and your loved ones is paramount. We offer comprehensive information and resources related to insurance options specifically tailored for veterans."
         link="/insurance"
-      />
-      
+      /> */}
       <Card
         imgSrc={advocacyImg}
         title="Advocacy"
