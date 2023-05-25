@@ -38,7 +38,7 @@
 .card__button {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #790888;
+  background-color: #202A44;
   color: #fff;
   border-radius: 0.25rem;
   text-decoration: none;
@@ -49,5 +49,5 @@
 }
 
 .card__button:hover {
-  background-color: #880882;
+  background-color: #30467e;
 }

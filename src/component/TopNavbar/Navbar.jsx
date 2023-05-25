@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/polotno.png";
+import logo from "../../assets/2.png";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
