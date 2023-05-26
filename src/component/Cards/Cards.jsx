@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import educationImg from '../../assets/education.jpg';
-import insuranceImg from '../../assets/insurance.jpg';
+// import insuranceImg from '../../assets/insurance.jpg';
 import healthImg from '../../assets/medicine.jpg';
 import advocacyImg from '../../assets/advocacy.jpg';
 import volunteeringImg from '../../assets/volunteer.jpg';
