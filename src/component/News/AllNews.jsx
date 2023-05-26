@@ -23,16 +23,22 @@ function AllNews() {
   const [newsItems, setNewsItems] = useState([]);
   const [isLoading, setIsloading] = useState(false)
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(async () => {
-    setIsloading(true);
-   await fetch('https://newsapi.org/v2/everything?q=nigeria&apiKey=db1d173bf1324fc2aa3fbaf5bf3f343e')
-      .then(response => response.json())
-      .then(data => setNewsItems(data.articles))
-      .catch(error => console.error(error));
+  
 
-      setIsloading(false);
-  }, []);
+  useEffect(() => {
+    async function fetchNews() {
+      setIsloading(true);
+      await fetch('https://newsapi.org/v2/everything?q=nigeria&apiKey=db1d173bf1324fc2aa3fbaf5bf3f343e')
+         .then(response => response.json())
+         .then(data => {
+          console.log("data is here", data)
+          setNewsItems(data.articles)})
+         .catch(error => console.error(error));
+   
+         setIsloading(false);
+    }
+    fetchNews();
+  }, [])
 
   return (
     <>

@@ -16,28 +16,46 @@ function NewsItem({ title, date, summary, url,image }) {
 
 function News() {
   const [newsItems, setNewsItems] = useState([]);
+  const [isLoading, setIsloading] = useState(false)
+
+  
 
   useEffect(() => {
-    fetch('https://newsapi.org/v2/everything?q=nigeria&apiKey=db1d173bf1324fc2aa3fbaf5bf3f343e')
-      .then(response => response.json())
-      .then(data => setNewsItems(data.articles.slice(0, 4)))
-      .catch(error => console.error(error));
-  }, []);
+    async function fetchNews() {
+      setIsloading(true);
+      await fetch('https://newsapi.org/v2/everything?q=nigeria&apiKey=db1d173bf1324fc2aa3fbaf5bf3f343e')
+         .then(response => response.json())
+         .then(data => {
+          console.log("data is here", data)
+          setNewsItems(data.articles)})
+         .catch(error => console.error(error));
+   
+         setIsloading(false);
+    }
+    fetchNews();
+  }, [])
 
   return (
     <>
     <h1 className="news__header">News Feeds</h1>
     <div className="news">   
-      {newsItems.map((item, index) => (
-        <NewsItem
-          key={index}
-          title={item.title}
-          date={item.publishedAt}
-          summary={item.description}
-          image={item.urlToImage}
-          url ={item.url}
-        />
-      ))}
+    {
+      isLoading ? <h1>Fetching</h1> : 
+      <>
+      {
+        newsItems?.map((item, index) => (
+          <NewsItem
+            key={index}
+            title={item.title}
+            date={item.publishedAt}
+            summary={item.description}
+            image={item.urlToImage}
+            url ={item.url}
+          />
+        ))
+      }
+      </>
+    }
     </div>
     </>
   );
