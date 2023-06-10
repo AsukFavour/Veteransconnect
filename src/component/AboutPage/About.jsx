@@ -16,12 +16,11 @@ const About = () => {
           <h2>About Us</h2>
           <p>
             Welcome to Veteran Benevolent Support Africa, a platform created to
-            serve retired military veterans. Our mission is to provide
-            comprehensive support and resources to empower veterans in their
-            service journey.We believe in enhancing the well-being, personal
-            growth, and professional success of veterans. Through our platform,
-            veterans have access to a wide range of resources that can improve
-            that.
+            serve retired military veterans. Our mission is to support veterans
+            in their post service life and to thank them for their service.We
+            believe in enhancing the well-being, personal growth, and
+            professional success of veterans. Through our platform, veterans
+            have access to a wide range of resources that can improve that.
           </p>
           <p>
             At Veteran Benevolent Support Africa, we understand the unique

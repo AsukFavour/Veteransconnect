@@ -6,12 +6,12 @@ function AboutUs() {
     <div className="about-us">
       <h1 className="about-us__heading">About Us</h1>
       <p className="about-us__text">
-        Welcome to Veteran Benevolent Support Africa, a platform created to
-        serve retired military veterans. Our mission is to provide comprehensive
-        support and resources to empower veterans in their service journey. We
-        believe in enhancing the well-being, personal growth, and professional
-        success of veterans. Through our platform, veterans have access to a
-        wide range of resources that can improve that.
+      Welcome to Veteran Benevolent Support Africa, a platform created to
+            serve retired military veterans. Our mission is to support veterans
+            in their post service life and to thank them for their service.We
+            believe in enhancing the well-being, personal growth, and
+            professional success of veterans. Through our platform, veterans
+            have access to a wide range of resources that can improve that.
       </p>
       <p className="about-us__text">
         At Veteran Benevolent Support Africa, we understand the unique
